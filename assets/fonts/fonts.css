@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Humnst777BLK";
+    src: url("./Humnst777BLKBT.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: "Humnst777Lt";
+    src: url("./Humnst777LtBTLight.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: "NovaBold";
+    src: url("./NOVABOLD.otf") format("opentype")
+}
