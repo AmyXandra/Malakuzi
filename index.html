@@ -78,14 +78,24 @@
                 </li>-->
               <li><a href="about.html">About Us</a></li>
               <li><a href="contact.html">Contact Us</a></li>
-              <li class="drop-down">
+              <!-- <li class="drop-down">
                   <a href="#">Log In</a>
                   <ul>
                       <li><a href="parent.html">Parent</a></li>
                       <li><a href="staff.html">Staff</a></li>
                       <li><a href="student.html">Student</a></li>
                   </ul>
-              </li>
+              </li> -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle login-btn" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Login
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="parent.html">Parent Login</a>
+                    <a class="dropdown-item" href="staff.html">Staff Login</a>
+                    <a class="dropdown-item" href="student.html">Student Login</a>
+                </div>
+                </li>
           </ul>
       </nav><!-- .nav-menu -->
 
@@ -165,7 +175,7 @@
       <div class="container">
 
         <div class="row">
-          <div class="col-lg-6 d-flex flex-column justify-content-center pt-2">
+          <div class="col-lg-5 d-flex flex-column justify-content-center pt-2">
 
             <!-- <div class="icon-box">
               <div class="icon"><i class="bx bx-fingerprint"></i></div>
@@ -184,9 +194,12 @@
 
           </div>
 
-          <div class="col-lg-5 offset-lg-1 video-box">
-            <img src="assets/img/why-us.jpg" class="img-fluid" alt="">
-            </div>
+          <div class="col-lg-6 offset-lg-1 video-box">
+                <div class="image-box">
+                    <img src="assets/img/why-us.jpg" class="img-fluid" alt="">
+                </div>
+          </div>
+              
         </div>
 
       </div>

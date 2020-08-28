@@ -36,63 +36,13 @@
     ======================================================== -->
 </head>
 
-<body>
+<body class="body-wrapper">
 
-    <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top ">
-        <div class="container">
 
-            <div class="logo float-left">
-                <!--<h1 class="text-light"><a href="index.html"><span>Malakuzi</span></a></h1>-->
-                <!--<h1 class="text-light"><a href="index.html"><span>Malakuzi</span></a></h1>-->
-                <a href="index.html"><img src="assets/img/MalakuziLogo.jpeg" alt="" class="img-fluid"></a>
-            </div>
-
-            <nav class="nav-menu float-right d-none d-lg-block">
-                <ul>
-                    <li><a href="index.html#hero-no-slider">Home</a></li>
-                    <li><a href="index.html#services">Services</a></li>
-                    <li><a href="index.html#features">Features</a></li>
-                    <!--<li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="team.html">Team</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li class="drop-down"><a href="">Drop Down</a>
-                      <ul>
-                        <li><a href="#">Drop Down 1</a></li>
-                        <li class="drop-down"><a href="#">Drop Down 2</a>
-                          <ul>
-                            <li><a href="#">Deep Drop Down 1</a></li>
-                            <li><a href="#">Deep Drop Down 2</a></li>
-                            <li><a href="#">Deep Drop Down 3</a></li>
-                            <li><a href="#">Deep Drop Down 4</a></li>
-                            <li><a href="#">Deep Drop Down 5</a></li>
-                          </ul>
-                        </li>
-                        <li><a href="#">Drop Down 3</a></li>
-                        <li><a href="#">Drop Down 4</a></li>
-                        <li><a href="#">Drop Down 5</a></li>
-                      </ul>
-                    </li>-->
-                    <li><a href="about.html">About Us</a></li>
-                    <li class="active"><a href="contact.html">Contact Us</a></li>
-                    <li class="drop-down">
-                        <a href="#">Log In</a>
-                        <ul>
-                            <li><a href="parent.html">Parent</a></li>
-                            <li><a href="staff.html">Staff</a></li>
-                            <li><a href="student.html">Student</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav><!-- .nav-menu -->
-
-        </div>
-    </header><!-- End Header -->
-
-    <main id="main">
+    <main>
 
         <!-- ======= Contact Section ======= -->
-        <section class="breadcrumbs">
+        <!-- <section class="breadcrumbs">
             <div class="container">
 
                 <div class="d-flex justify-content-between align-items-center">
@@ -104,35 +54,63 @@
                 </div>
 
             </div>
-        </section><!-- End Contact Section -->
+        </section> -->
+        <!-- End Contact Section -->
         <!-- ======= Contact Section ======= -->
-        <section class="contact" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+        <div class="login" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
             <div class="container">
 
                 <div class="row">
 
-
-                    <div class="col-lg-6">
-                        <h3>Student Log In</h3>
+                    <div class="col-lg-5">
+                        <div class="logo ">
+                            <a href="index.html"><img src="assets/img/Malakuzi-logo.png" alt="" style="    margin: 60px 0;
+                                width: 158px;" class="img-fluid"></a>
+                        </div>
+                        <h2 style="    max-width: 230px;
+                        width: 236.56px;
+                        height: 94px;
+                        left: 101px;
+                        top: 226px;
+                        font-family: Humnst777 Blk BT;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 36px;
+                        line-height: 130%;
+                        margin-bottom: 30px;">Portal For Students</h2>
                         <form action="forms/staff.php" method="post" role="form" class="php-email-form">
                             <div class="form-row">
-                                <div class="col-md-6 form-group">
+                                <div class="col-md-12 form-group mb-4">
+                                    <label>Email Address</label>
                                     <input type="text" name="username" class="form-control" id="username" placeholder="Username" data-rule="minlen:8" data-msg="Please enter your user name" />
                                     <div class="validate"></div>
                                 </div>
-                                <div class="col-md-6 form-group">
+                                <div class="col-md-12 form-group mb-4">
+                                    <label>Password</label>
                                     <input type="password" name="password" class="form-control" id="password" placeholder="Password" data-rule="minlen:8" data-msg="Please enter your password" />
                                     <div class="validate"></div>
                                 </div>
                             </div>
-                            <div class="text-center"><button type="submit">Log In</button></div>
+                            <div class="text-center"><button type="submit" class="mt-4 btn-block">Log In</button></div>
                         </form>
+                    </div>
+
+                    <div class="col-xl-6 offset-lg-1">
+                        <div class="d-none d-md-block float-left bg-cover" style="background-color: #0F0F0F;
+                        background-image: url(assets/img/icons/phone-mockup.png);
+                        width: 50vw!important;
+                        height: 100vh;
+                        background-size: 72%;
+                        background-position: 50% 100%;
+                        background-repeat: no-repeat">
+                            <img src="assets/img/icons/logo-trans.png" class="img-fluid" alt="">
+                        </div>
                     </div>
 
                 </div>
 
             </div>
-        </section><!-- End Contact Section -->
+        </div><!-- End Contact Section -->
         <!-- ======= Map Section ======= -->
         <!--<section class="map mt-2">
             <div class="container-fluid p-0">
