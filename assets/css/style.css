@@ -311,7 +311,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .mobile-nav-toggle i {
-  color: #fff;
+  color: #ed2f59;
 }
 
 .mobile-nav-overly {
@@ -541,6 +541,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   color: #fff;
   text-decoration: none;
 }
+
 .hero-img{
   background-image: url(../img/hero-bg.jpg); width: 50vw!important; background-size: cover;
 }
@@ -590,9 +591,21 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .hero-content h2{
   max-width:350px
 }
+.mobile-hero{
+  display: none;
+}
 @media (max-width: 575px) {
   #hero-no-slider h2 {
     font-size: 30px;
+  }
+  .mobile-hero{
+    display: block !important;
+  }
+  #hero-no-slider {
+    height: 100%;
+  }
+  .hero-img {
+    background-image: none;
   }
 }
 
@@ -746,7 +759,7 @@ section {
   font-weight: normal;
   font-size: 20px;
   line-height: 114.4%;
-  letter-spacing: 0.02rem;
+  letter-spacing: 0.05rem;
 }
 
 .services .description {
@@ -973,7 +986,25 @@ section {
   animation: none;
   border-radius: 0;
 }
-
+@media (max-width: 575px) {
+  .why-us .video-box .image-box{
+    margin-top: 58px;
+  }
+  .why-us .video-box img {
+    border: 4px solid #AEED0E;
+    height: 82%;
+    object-fit: cover;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .video-box:before{
+    width: 30%;
+    height: 110px;
+    top: 4%;
+    right: 6%;
+    z-index: -5;
+  }
+}
 @-webkit-keyframes pulsate-btn {
   0% {
     transform: scale(0.6, 0.6);
@@ -1081,7 +1112,7 @@ section {
   font-weight: normal;
   font-size: 16px;
   line-height: 120%;
-  letter-spacing: 0.02rem;
+  letter-spacing: 0.05rem;
 }
 /*--------------------------------------------------------------
 # About
@@ -1173,7 +1204,7 @@ section {
 }
 
 .blockquote h3{
-  width: 730px;
+  max-width: 730px;
   font-family: Humnst777 Blk BT;
   font-size: 22px;
   line-height: 184%;
@@ -1182,7 +1213,14 @@ section {
   color: #FFFFFF;
   margin: auto;
 }
-
+@media (max-width: 767px) {
+  .blockquote {
+    background: url(../img/icons/brush-icon.png);
+    background-size: cover;
+    background-position: center;
+    margin: 80px 0;
+  }
+}
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
