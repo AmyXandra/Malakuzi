@@ -2547,7 +2547,7 @@ section {
 #footer {
   background: #0b212d;
   /* padding: 0 0 30px 0; */
-  color: #fff;
+  color: #777;
   font-size: 14px;
 }
 
@@ -2660,10 +2660,11 @@ section {
 
 #footer .footer-top h4 {
   font-size: 18px;
-  font-weight: 600;
-  color: #a2cce3;
+  font-family: "Humnst777Lt", sans-serif;
+  font-weight: bold;
+  color: #f4f4f4;
   position: relative;
-  padding-bottom: 12px;
+  padding-bottom: 4px;
 }
 
 #footer .footer-top .footer-links {
@@ -2688,6 +2689,8 @@ section {
   padding: 10px 12px;
   display: flex;
   align-items: center;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 #footer .footer-top .footer-links ul li:first-child {
@@ -2729,6 +2732,15 @@ section {
   color: #a2cce3;
 }
 
+@media (max-width: 575px) {
+  #footer .footer-top .footer-links ul {
+    display: flex;
+    flex-direction: column;
+  }
+  #footer .footer-top .footer-links ul li {
+    padding: 10px 0px;
+  }
+}
 .form-control{
   border: 1px solid #E0C8CD;
   border-radius: 4px;
@@ -2740,6 +2752,19 @@ section {
 }
 .login{
   overflow: hidden;
+}
+.login-logo{
+  margin: 60px 0;
+  width: 158px;
+}
+.login-title{
+  max-width: 230px;
+  font-family: Humnst777 Blk BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 130%;
+  margin-bottom: 30px;
 }
 .login .php-email-form {
   margin-top: 50px;
@@ -2775,4 +2800,24 @@ section {
   font-size: 13px;
   margin-bottom: .2rem;
   color: #0F0F0F;
+}
+.login-bg{
+  background-color: #0F0F0F;
+  background-image: url(../img/icons/phone-mockup.png);
+  width: 50vw!important;
+  height: 100vh;
+  background-size: 72%;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  padding: 30px;
+
+}
+.dropdown-item:focus{
+  background: #f7f7f7;
+  color: #ed2f59;
+}
+.back-to-home a p{
+  margin-bottom: 30px;
+  font-weight: bold;
+  margin-top: 40px;
 }
